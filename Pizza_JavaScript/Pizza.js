@@ -21,6 +21,8 @@ if (selectedSize === "Personal Pizza")  {
     sizeTotal = 14;
 } else if (selectedSize === "Extra Large Pizza") {
     sizeTotal = 16;
+} else if (selectedSize === "Party Size Pizza") {
+    sizeTotal = 20;
 }
 runningTotal = sizeTotal;
 console.log(selectedSize+" = $"+sizeTotal+".00");
